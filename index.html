@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- PARTICLES -->
+  <div id="particles-js"></div>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav>
+      <h1 class="logo">Portfolio</h1>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="menu-btn">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HOME -->
+  <section class="home" id="home">
+
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+
+      <h1>Tanishq Mittal</h1>
+
+      <h3>
+        And I'm a
+        <span class="typing"></span>
+      </h3>
+
+      <p>
+        I build efficient Python solutions and frontend web experiences with clean code and strong problem-solving.
+      </p>
+
+      <div class="social-icons">
+
+        <a href="https://www.linkedin.com/in/mittal-tanishq" target="_blank">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+
+        <a href="https://github.com/Tanishq-Mittal" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+
+      <div class="buttons">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="#contact" class="btn btn2">Contact Me</a>
+        <a href="cv.pdf" download class="btn btn2">Download CV</a>
+      </div>
+    </div>
+
+    <div class="home-image">
+      <img src="image.jpg" alt="Tanishq Mittal profile picture" />
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="heading"><span>01.</span> About Me</div>
+    <div class="about-container about-grid">
+      <div class="about-content">
+        <h3>Hi, I'm Tanishq.</h3>
+        <p class="about-lead">I deliver dependable Python solutions and polished frontend experiences for real business needs.</p>
+        <p>My approach is built on clean architecture, strong problem-solving, and clear communication. I create scalable solutions that look professional, run reliably, and drive measurable results.</p>
+        <p>I combine responsive web development, backend automation, SQL analytics, and user-centered design to build work that is both effective and easy to maintain.</p>
+        <div class="about-highlights">
+          <div class="highlight-item">User-centered products that simplify workflows.</div>
+          <div class="highlight-item">Reliable delivery with clear scope and timelines.</div>
+          <div class="highlight-item">Strong technical design for fast, stable systems.</div>
+          <div class="highlight-item">Data-driven insight for smarter decision support.</div>
+        </div>
+      </div>
+      <div class="about-cards">
+        <div class="about-card">
+          <h4>Clean Logic</h4>
+          <p>Well-structured code that is easy to extend, test, and maintain.</p>
+        </div>
+        <div class="about-card">
+          <h4>Professional Delivery</h4>
+          <p>Reliable planning, timely communication, and quality execution on every project.</p>
+        </div>
+        <div class="about-card">
+          <h4>Data Focused</h4>
+          <p>Data-driven solutions using SQL, analytics, and automation for better decisions.</p>
+        </div>
+        <div class="about-card">
+          <h4>User-Centered</h4>
+          <p>Designing interfaces and workflows that prioritize clarity, usability, and measurable impact.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="heading"><span>02.</span> Skills & Tools</div>
+    <p class="skills-intro">Key strengths I bring to every project: clean front-end experiences, efficient Python automation, strong database analysis, and data visualization that tells the right story.</p>
+    <div class="skills-container">
+      <div class="skill-box">
+        <i class="fas fa-code"></i>
+        <h3>Frontend Development</h3>
+        <p>Modern responsive interfaces built with HTML, CSS and JavaScript.</p>
+      </div>
+      <div class="skill-box">
+        <i class="fab fa-python"></i>
+        <h3>Python Programming</h3>
+        <p>Automation, scripting, and backend tools that save time and reduce errors.</p>
+      </div>
+      <div class="skill-box">
+        <i class="fas fa-database"></i>
+        <h3>SQL Basics</h3>
+        <p>Data modeling and analytics to turn raw datasets into actionable insight.</p>
+      </div>
+      <div class="skill-box">
+        <i class="fab fa-java"></i>
+        <h3>Java</h3>
+        <p>Strong object-oriented programming for reliable application code.</p>
+      </div>
+      <div class="skill-box">
+        <i class="fas fa-chart-line"></i>
+        <h3>Power BI Basics</h3>
+        <p>Interactive dashboards and reports for deeper business visibility.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="certificates" id="certificates">
+    <div class="heading"><span>03.</span> Certifications</div>
+    <p class="certificates-intro">Verified credentials and meaningful training that support the technical work I deliver.</p>
+    <div class="certificates-grid">
+      <div class="certificate-card">
+        <div class="certificate-meta">
+          <span class="certificate-badge">Verified</span>
+          <span class="certificate-type">Professional Course</span>
+        </div>
+        <h4>Problem Solving through Programming in C – NPTEL (IIT Kharagpur)</h4>
+        <p>Certified in programming fundamentals and problem-solving using C language.</p>
+      </div>
+      <div class="certificate-card">
+        <div class="certificate-meta">
+          <span class="certificate-badge">Verified</span>
+          <span class="certificate-type">Technical Certification</span>
+        </div>
+        <h4>Programming in Java – NPTEL (IIT Kharagpur)</h4>
+        <p>Certified in Java programming and object-oriented development concepts.</p>
+      </div>
+      <div class="certificate-card">
+        <div class="certificate-meta">
+          <span class="certificate-badge">Verified</span>
+          <span class="certificate-type">Database Training</span>
+        </div>
+        <h4>Introduction to Database Systems – NPTEL (IIT Madras)</h4>
+        <p>Certified in database systems and SQL fundamentals.</p>
+      </div>
+      <div class="certificate-card">
+        <div class="certificate-meta">
+          <span class="certificate-badge">Verified</span>
+          <span class="certificate-type">Cybersecurity</span>
+        </div>
+        <h4>Certified SOC Analyst – EC Council</h4>
+        <p>Certified in cybersecurity operations and threat analysis.</p>
+      </div>
+      <div class="certificate-card">
+        <div class="certificate-meta">
+          <span class="certificate-badge">Verified</span>
+          <span class="certificate-type">Hackathon Achievement</span>
+        </div>
+        <h4>ET-AI Hackathon – The Economic Times</h4>
+        <p>Semi-finalist in AI hackathon for innovative problem-solving.</p>
+      </div>
+      <div class="certificate-card">
+        <div class="certificate-meta">
+          <span class="certificate-badge">Verified</span>
+          <span class="certificate-type">AI Fundamentals</span>
+        </div>
+        <h4>AI Foundation Course – Jio PC</h4>
+        <p>Completed foundational training in Artificial Intelligence and its applications.</p>
+      </div>
+      <div class="certificate-card">
+        <div class="certificate-meta">
+          <span class="certificate-badge">Verified</span>
+          <span class="certificate-type">Business Intelligence</span>
+        </div>
+        <h4>Power BI for Beginners - Simplilearn</h4>
+        <p>Learned Power BI fundamentals, including data analysis, interactive dashboards, and report creation for business insights.</p>
+      </div>
+      <div class="certificate-card">
+        <div class="certificate-meta">
+          <span class="certificate-badge">Verified</span>
+          <span class="certificate-type">Microsoft Skill</span>
+        </div>
+        <h4>Generate reports with AI research agents - Microsoft</h4>
+        <p>Earned an official Microsoft Applied Skills credential in AI-powered report generation using research agents.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="heading"><span>04.</span> Projects</div>
+    <div class="projects-container">
+      <a href="#contact" class="project-card">
+        <div class="project-content">
+          <span>Python · OpenCV · Numpy</span>
+          <h4>Face detection project</h4>
+          <p>Developed a real-time face detection application using OpenCV and Python with webcam integration.</p>
+          <div class="project-action"><i class="fas fa-comment-dots"></i> Discuss this project</div>
+        </div>
+      </a>
+      <a href="#contact" class="project-card">
+        <div class="project-content">
+          <span>Python · Webbrowser · Tkinter</span>
+          <h4>AI Assistant Search App</h4>
+          <p>Developed a Python-based AI assistant GUI application using Tkinter for quick Google, YouTube, and Instagram searches.</p>
+          <div class="project-action"><i class="fas fa-comment-dots"></i> Discuss this project</div>
+        </div>
+      </a>
+      <a href="#contact" class="project-card">
+        <div class="project-content">
+          <span>HTML · CSS · JavaScript</span>
+          <h4>Incredible India YatraVista Portal</h4>
+          <p>Developed a responsive travel and tourism portal showcasing Indian destinations using HTML, CSS, and JavaScript.</p>
+          <div class="project-action"><i class="fas fa-comment-dots"></i> Discuss this project</div>
+        </div>
+      </a>
+      <a href="#contact" class="project-card">
+        <div class="project-content">
+          <span>Python · OpenCV · Tkinter</span>
+          <h4>UPI Scanner</h4>
+          <p>Developed a Python-based UPI QR scanner that detects and decodes UPI payment QR codes for quick transaction details retrieval.</p>
+          <div class="project-action"><i class="fas fa-comment-dots"></i> Discuss this project</div>
+        </div>
+      </a>
+      <a href="#contact" class="project-card">
+        <div class="project-content">
+          <span>HTML · CSS · JavaScript · MongoDB</span>
+          <h4>Virtual Whiteboard</h4>
+          <p>Developed a collaborative Virtual Whiteboard application with real-time drawing features, an interactive user interface, and MongoDB-based data storage.</p>
+          <div class="project-action"><i class="fas fa-comment-dots"></i> Discuss this project</div>
+        </div>
+      </a>
+      <a href="#contact" class="project-card">
+        <div class="project-content">
+          <span>HTML · CSS · JavaScript</span>
+          <h4>Scientific Calculator</h4>
+          <p>Developed a responsive Scientific Calculator web application with advanced mathematical functions, real-time calculations, and an intuitive user interface using HTML, CSS, and JavaScript.</p>
+          <div class="project-action"><i class="fas fa-comment-dots"></i> Discuss this project</div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="heading"><span>05.</span> Contact</div>
+    <div class="contact-form">
+      <p>Interested in Python or frontend work? Send a message and I’ll reply with a professional proposal.</p>
+      <div class="contact-links">
+        <a href="mailto:mittaltanishq469@gmail.com" class="btn">Send Email</a>
+        <a href="https://www.linkedin.com/in/mittal-tanishq" target="_blank" class="btn btn2">Connect on LinkedIn</a>
+      </div>
+      <p class="contact-info">Reach out for project opportunities, collaboration, or technical consulting.</p>
+    </div>
+  </section>
+<!-- ================= AI CHATBOT ================= -->
+
+<div id="chatbot-container">
+
+    <!-- Floating Button -->
+    <button id="chat-toggle" aria-label="Open AI Assistant">
+        🤖
+    </button>
+
+    <!-- Chat Window -->
+    <div id="chat-box">
+
+        <!-- Header -->
+        <div class="chat-header">
+
+            <div>
+                <h3>Tanishq AI</h3>
+                <span>Portfolio Assistant</span>
+            </div>
+
+            <button id="close-chat" aria-label="Close Chat">
+                ×
+            </button>
+
+        </div>
+
+        <!-- Messages -->
+        <div id="chat-messages">
+
+            <div class="bot-message">
+                👋 Hi! I'm Tanishq's AI assistant.
+                <br><br>
+                Ask me anything about his:
+                <br>
+                • Skills
+                <br>
+                • Projects
+                <br>
+                • Certificates
+                <br>
+                • Education
+                <br>
+                • Contact
+            </div>
+
+        </div>
+
+        <!-- Quick Questions -->
+        <div class="quick-questions">
+
+            <button class="quick-btn">
+                Tell me about Tanishq
+            </button>
+
+            <button class="quick-btn">
+                Show projects
+            </button>
+
+            <button class="quick-btn">
+                What are his skills?
+            </button>
+
+        </div>
+
+        <!-- Input -->
+        <div class="chat-input">
+
+            <input
+                type="text"
+                id="user-input"
+                placeholder="Ask about Tanishq..."
+                autocomplete="off"
+            >
+
+            <button id="send-btn">
+                ➤
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ================= END AI CHATBOT ================= -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
