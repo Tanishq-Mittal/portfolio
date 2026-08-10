@@ -367,7 +367,7 @@ document.addEventListener('DOMContentLoaded', () => {
          */
 
         const API_URL =
-            'http://localhost:5000/chat';
+            'https://portfolio-backend-jsw2.onrender.com/chat';
 
 
         const response = await fetch(API_URL, {
