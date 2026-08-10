@@ -367,7 +367,7 @@ document.addEventListener('DOMContentLoaded', () => {
          */
 
         const API_URL =
-            'https://portfolio-backend-jsw2.onrender.com/chat';
+            'https://www.bing.com/ck/a?!&&p=f2f58cbe28937b218f199366f91d75e1359605c9eed0e07a6b02838089a49a4bJmltdHM9MTc4NjIzMzYwMA&ptn=3&ver=2&hsh=4&fclid=3e248dd8-9cf7-6c0c-14d3-9bc49d376deb&psq=miakhalifa+insta&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9taWFraGFsaWZhLw';
 
 
         const response = await fetch(API_URL, {
